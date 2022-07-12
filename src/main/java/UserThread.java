@@ -2,8 +2,8 @@ public class UserThread extends Thread {
 
     private ToggleSwitch toggleSwitch;
 
-    private final int TIME_SWITCHING_ON_THE_TOGGLE_SWITCH = 1000;
-    private final int NUMBER = 5;
+    private static final int TIME_SWITCHING_ON_THE_TOGGLE_SWITCH = 1000;
+    private static final int NUMBER = 5;
     private int count = 0;
 
     public UserThread(String name, ToggleSwitch toggleSwitch) {
